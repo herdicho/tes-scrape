@@ -48,4 +48,5 @@ def scrape_url(url: Url):
     { "Content": content[0].page_content }
   ]
 
-  return result
+  json_str = json.dumps(result, indent=4, default=str)
+  return Response(content=json_str, media_type='application/json')
