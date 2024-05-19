@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+selenium
+webdriver_manager
+langchain_community
+unstructured
+fpdf
+PyPDF2
